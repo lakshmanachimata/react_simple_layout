@@ -43,10 +43,10 @@ body {
   padding-bottom: 2vh;
 }
 .catitem {
-  display: inline-flex;
-  flex-direction: column;
+  display:flex;
   border: 1.5px solid #ccc;
   margin-right: 1.2%; 
+  flex-wrap:wrap !important;
 }
 
 .catimg {
@@ -64,11 +64,15 @@ body {
 
 .catitemtitle {
   margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .catitembody {
   margin-left: 10px;
   line-height: 1.6;
   margin-right: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .catitemlinks{

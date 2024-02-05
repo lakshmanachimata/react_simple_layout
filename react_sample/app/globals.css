@@ -53,7 +53,7 @@ body {
   margin-right: 1vw;
   margin-top: 1vh;
   width: 91%;
-  height: 45%;
+  height: 43%;
   object-fit: cover;
 }
 .catitem h3 p {
@@ -66,6 +66,8 @@ body {
 }
 .catitembody {
   margin-left: 10px;
+  line-height: 1.6;
+  margin-right: 30px;
 }
 
 .catitemlinks{

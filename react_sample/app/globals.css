@@ -1,0 +1,92 @@
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  margin: 0px !important;
+  background: #000;
+  font-family: 'Roboto', sans-serif;
+}
+.maincontent {
+  font-weight: 550;
+  max-width: 68vw;
+  height: 100vh;
+  color: #000;
+  background: #fff;
+  margin: auto;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+.maincontent h1 {
+  font-size: 3vh;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  margin-right: 10px;
+  padding-top: 4vh;
+}
+
+.devnotes p {
+  padding-top: 1vh;
+}
+
+.devnotes ul {
+  padding-top: 1vh;
+}
+.devnotes ul li {
+  font-weight: 450;
+  font-size: 1.4vh;
+  padding-top: 0.5vh;
+}
+
+.cardcontent {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+.catitem {
+  justify-content: flex-start;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.2%;                       
+}
+
+.catimg {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 1vh;
+  width: 91%;
+  height: 45%;
+  object-fit: cover;
+}
+.catitem h3 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.catitemtitle {
+  margin-left: 10px;
+}
+.catitembody {
+  margin-left: 10px;
+}
+
+.catitemlinks{
+  display: flex;
+}
+.linkitem {
+  margin-left: 10px;
+  color: #0000EE;
+  text-decoration: underline;
+  cursor: pointer;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  .cardcontent {
+    flex-direction: column;
+  }
+}
